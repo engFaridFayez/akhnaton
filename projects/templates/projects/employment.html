@@ -1,0 +1,78 @@
+{% extends 'projects/base.html' %}
+
+{% load static %}
+{% block navbar_class %}
+bg-white sticky-top custom-sticky-navbar
+{% endblock navbar_class %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+                <div class="card-header text-center bg-warning text-white">
+                    <h4>نموذج تقديم وظيفة</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+
+                        <!-- الاسم -->
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="الاسم" required>
+                            <label for="name">الاسم</label>
+                        </div>
+
+                        <!-- رقم الهاتف -->
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="phone" name="phone" placeholder="رقم الموبايل" required>
+                            <label for="phone">رقم الموبايل</label>
+                        </div>
+
+                        <!-- السن -->
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="age" name="age" placeholder="السن" required>
+                            <label for="age">السن</label>
+                        </div>
+
+                        <!-- محل السكن -->
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="place_of_residence" name="place_of_residence" placeholder="محل السكن" required>
+                            <label for="place_of_residence">محل السكن</label>
+                        </div>
+
+                        <!-- الوظيفة المطلوبة -->
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="job_applied_for" name="job_applied_for" placeholder="الوظيفة المطلوبة" required>
+                            <label for="job_applied_for">الوظيفة المطلوبة</label>
+                        </div>
+
+                        <!-- سنوات الخبرة -->
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="numbers_of_years_experience" name="numbers_of_years_experience" placeholder="سنين الخبرة" required>
+                            <label for="numbers_of_years_experience">سنين الخبرة</label>
+                        </div>
+
+                        <!-- الرسالة -->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="رسالتك" id="message" name="message" style="height: 120px;"></textarea>
+                            <label for="message">رسالتك</label>
+                        </div>
+
+                        <!-- رفع الـ CV -->
+                        <div class="mb-4">
+                            <label for="cv" class="form-label">رفع السيرة الذاتية</label>
+                            <input class="form-control" type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+                        </div>
+
+                        <!-- زر الإرسال -->
+                        <button type="submit" class="btn btn-warning w-100">إرسال</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+

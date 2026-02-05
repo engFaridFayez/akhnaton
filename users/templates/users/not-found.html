@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1C2127;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .neon {
+            font-family: 'Varela Round', sans-serif;
+            font-size: 6rem;
+            color: #FF6B6B;
+            text-shadow: 0 0 5px #FF8787;
+            animation: flux 2s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        .message { font-size: 1.8rem; font-weight: 500; margin-bottom: 10px; }
+        .message2 { font-size: 1rem; font-weight: 300; max-width: 90%; margin-bottom: 40px; }
+
+        .door-frame {
+            height: 250px;
+            width: 150px;
+            border-radius: 70px 70px 0 0;
+            background-color: #8594A5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .door {
+            height: 220px;
+            width: 120px;
+            border-radius: 50px 50px 0 0;
+            background-color: #A0AEC0;
+            position: relative;
+            transform: rotate(-5deg);
+        }
+
+        .window { height: 30px; width: 80px; background-color: #1C2127; border-radius: 3px; position: absolute; top: 40px; left: 50%; transform: translateX(-50%); }
+
+        .eye, .eye2, .leaf { display: none; } /* optional for simpler 404 effect */
+
+        @keyframes flux {
+            0%, 100% { text-shadow: 0 0 5px #FF6B6B, 0 0 15px #FF8787, 0 0 50px #FF9C9C; color: #FF6B6B; }
+            50% { text-shadow: 0 0 3px #FF4C4C, 0 0 7px #FF4C4C, 0 0 25px #FF4C4C; color: #FF4C4C; }
+        }
+
+        @media (max-width: 480px) {
+            .neon { font-size: 4rem; }
+            .message { font-size: 1.3rem; }
+            .door-frame { height: 200px; width: 120px; }
+            .door { height: 180px; width: 100px; }
+            .window { width: 60px; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="neon">404</div>
+    <div class="message">Page Not Found</div>
+    <div class="message2">The page you are looking for does not exist.</div>
+
+    <div class="door-frame">
+        <div class="door"></div>
+    </div>
+
+    <br>
+    <a class="btn btn-light" data-mdb-ripple-init data-mdb-ripple-color="dark" href="{% url 'index' %}">Back to home page</a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+</body>
+</html>

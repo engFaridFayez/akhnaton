@@ -1,0 +1,251 @@
+{% extends 'projects/base.html' %}
+{% load static %}
+
+{% block navbar_class %}
+navbar-dark bg-white sticky-top custom-sticky-navbar
+{% endblock navbar_class %}
+
+
+
+
+{% block content %}
+<style>
+    h5 {
+        color: rgb(127, 124, 124);
+    }
+
+    .d {
+        color: rgb(189, 169, 115);
+    }
+
+    .sec {
+        border-radius: 30px;
+        transition: background-color 0.3s ease;
+    }
+
+    .sec:hover {
+        background-color: orange;
+    }
+
+    .sec:hover .sec-content h5 {
+        color: white;
+    }
+
+    .sec2 {
+        border-radius: 30px;
+        transition: background-color 0.3s ease;
+    }
+
+    .sec2:hover {
+        background-color: orange;
+    }
+
+    .sec2:hover .sec-content2 h5 {
+        color: white;
+    }
+
+    .sec3 {
+        border-radius: 30px;
+        transition: background-color 0.3s ease;
+    }
+
+    .sec3:hover {
+        background-color: orange;
+    }
+
+    .sec3:hover .sec-content3 h5 {
+        color: white;
+    }
+</style>
+<!-- Service 1 - Bootstrap Brain Component -->
+<section class="py-5 py-xl-8">
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-7">
+                <h2 class="mb-4 display-5 text-center" style="font-weight: 900;color: orange;">Our Services</h2>
+                <p class="text-secondary mb-5 text-center">Akhanton for Construction and Real Estate Development (ACRED)
+                    offers a full scope of building construction services, including Layouts, Architecture, Engineering
+                    Design and Project Management Services.</p>
+                <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-1">
+
+            </div>
+            <div class="col-12 col-md-10 col-lg-12 col-xl-12 col-xxl-12">
+                <h3 class="mb-4" style="font-weight: 900;color: rgb(158, 104, 3);">Description of services:
+                </h3>
+                <p class="text-secondary"><b>ACRED</b> Engineers are highly experienced problem solvers with
+                    considerable in depth Knowledge of all construction materials and building structures. In- house
+                    computer systems assist our Structural Engineers in implementing your building design in concrete,
+                    structural steel or masonry.</p>
+                <p class="text-secondary"><b>ACRED</b> multi – discipline capabilities provide an effective Project
+                    Management system. Our professionals manage all aspects of project coordination on Owner behalf,
+                    complement the client's staff.</p>
+                <p class="text-secondary mb-5"><b>ACRED</b> objective, professional approach to design and construction
+                    control ensures that the client's completed building fulfills all expectations: financial,
+                    functional, and aesthetic.</p>
+                <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+            </div>
+        </div>
+    </div>
+
+    <div class="container overflow-hidden">
+        <div class="row gy-5">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="text-center px-xl-2 sec" style="padding-bottom: 20px;">
+                    <img src="{% static '../media/serviceicon.png' %}" alt="">
+                    <div class="sec-content">
+                        <h5 class="m-2 mb-5" style="font-size: x-large;font-weight: 900;">Architectural &
+                            Civil Engineering
+                        </h5>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Master planning</b></h5>
+                        <hr>
+                        <h5 class=" m-0" style="font-weight: 900;"><b>Space planning</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Preliminary Design</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Economic analysis</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Final Design</b></h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Construction
+                                observation</b></h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Shop drawings</b></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-5 col-lg-4 pt-3">
+                <div class="text-center px-xl-2 sec2" style="padding-bottom: 20px;">
+                    <img class="mb-2" src="{% static '../media/serviceicon2.png' %}" width="70" height="70" alt="">
+                    <div class="sec-content2">
+                        <h5 class="m-2 mb-5" style="font-size: x-large;font-weight: 900;">Projects Construction
+                        </h5>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Scaffold Work</b></h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Finishing Work:</b></h5>
+                        <hr>
+                        <h5 class="m-0 d" style="font-weight: 300; "><b>&nbsp;&nbsp;- Flooring
+                                Works</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0 d" style="font-weight: 300;"><b>&nbsp;&nbsp;- Aluminum
+                                Work</b></h5>
+                        <hr>
+                        <h5 class="m-0 d" style="font-weight: 300;"><b>&nbsp;&nbsp;- Glass
+                                Work</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0 d" style="font-weight: 300;"><b>&nbsp;&nbsp;- Gypsum
+                                board
+                                Work</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0 d" style="font-weight: 300;"><b>&nbsp;&nbsp;- False
+                                Ceiling
+                                Work</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0 d" style="font-weight: 300;"><b>&nbsp;&nbsp;- Painting
+                                Work</b></h5>
+                        <hr>
+                        <h5 class="m-0 d" style="font-weight: 300;"><b>&nbsp;&nbsp;- Wood
+                                Work</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Electromechanical
+                                Work:</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0 d" style="font-weight: 300;"><b>&nbsp;&nbsp;- HVAC
+                                Work</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0 d" style="font-weight: 300;"><b>&nbsp;&nbsp;- Plumbing
+                                Work</b></h5>
+                        <hr>
+                        <h5 class="m-0 d" style="font-weight: 300;"><b>&nbsp;&nbsp;- Fire
+                                Fighting
+                                Works &
+                                Fire alarm
+                                Works</b></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 pt-3">
+                <div class="text-center px-xl-2 sec3" style="padding-bottom: 20px;">
+                    <img class="mb-3" src="{% static '../media/serviceicon3.png' %}" alt="">
+                    <div class="sec-content3">
+                        <h5 class="m-2 mb-5" style="font-size: x-large;font-weight: 900;">Projects
+                            Management
+                        </h5>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Feasibility Studies</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Owner's
+                                Representative</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Identifications of owner
+                                needs</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Technical advice</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Design team
+                                selection</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Procedures advice</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Overview design &
+                                construction</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Team progress
+                                monitoring</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Project scheduling/
+                                Budgets</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Construction
+                                procurement</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Change order
+                                evaluations</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Progress payments</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Construction progress
+                                monitoring</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Inspection and
+                                testing</b>
+                        </h5>
+                        <hr>
+                        <h5 class="m-0" style="font-weight: 900;"><b>Construction contract
+                                closeout</b>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

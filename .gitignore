@@ -1,0 +1,43 @@
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# SQLite database
+db.sqlite3
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+db.sqlite3
+media/
+
+# Environment
+.env
+venv/
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+angle-484008-d7827093322e.json
