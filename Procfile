@@ -1,1 +1,1 @@
-web: gunicorn akhnaton.wsgi --bind 0.0.0.0:$PORT
+web: python manage.py migrate && gunicorn akhnaton.wsgi --bind 0.0.0.0:$PORT
