@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn akhnaton.wsgi --bind 0.0.0.0:$PORT
+web: python manage.py migrate && python manage.py shell -c "from django.contrib.auth.models import User; User.objects.filter(username='admin').exists() or User.objects.create_superuser('farid','faridfaiz71@gmail.com','Trumpet_1')" && gunicorn akhnaton.wsgi --bind 0.0.0.0:$PORT
