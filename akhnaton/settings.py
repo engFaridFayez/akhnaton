@@ -170,23 +170,24 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MEDIA_URL = 'media/'
+MEDIA_URL = '/media/'
 
 
 
-if ENVIRONMENT == 'production':
-    DEFAULT_FILE_STORAGE = [
-        'cloudinary_storage.storage.MediaCloudinaryStorage',
-        'cloudinary_storage.storage.VideoMediaCloudinaryStorage'
-    ]
-else:
-    MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+# if ENVIRONMENT == 'production':
+#     DEFAULT_FILE_STORAGE = [
+#         'cloudinary_storage.storage.MediaCloudinaryStorage',
+#         'cloudinary_storage.storage.VideoMediaCloudinaryStorage'
+#     ]
+# else:
+#     MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': env('CLOUD_NAME'),
     'API_KEY': env('CLOUD_API_KEY'),
     'API_SECRET': env('CLOUD_API_SECRET')
 }
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 TIME_ZONE = 'Africa/Cairo'
 USE_TZ = True

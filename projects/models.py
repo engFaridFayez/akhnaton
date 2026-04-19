@@ -1,10 +1,11 @@
 from django.db import models
+from cloudinary_storage.storage import MediaCloudinaryStorage
 
 # Create your models here.
 
 class Project(models.Model):
     name = models.CharField(max_length=100)
-    titleImage = models.ImageField(upload_to='project_images/', default='coming.jpg')
+    titleImage = models.ImageField(upload_to='project_images/',storage=MediaCloudinaryStorage(), default='coming.jpg')
     category = models.ForeignKey('Category', related_name='projects', on_delete=models.SET_NULL, null=True, blank=True)
     location = models.CharField(max_length=100,default="Giza")
     execution_period=models.CharField(max_length=100,default="Giza")
