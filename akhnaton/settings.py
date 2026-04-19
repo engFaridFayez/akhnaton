@@ -41,11 +41,7 @@ else:
     DEBUG = False
 
 
-ALLOWED_HOSTS = [
-    ".railway.app",
-    "localhost",
-    "127.0.0.1",
-]
+ALLOWED_HOSTS = ['*']
 
 
 
@@ -85,9 +81,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.railway.app",
 ]
 
-CSRF_COOKIE_SECURE = True
-SESSION_COOKIE_SECURE = True
-SECURE_SSL_REDIRECT = True
+
 
 ROOT_URLCONF = 'akhnaton.urls'
 
