@@ -12,14 +12,18 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 import os
 from pathlib import Path
+import dj_database_url
 # import cloudinary_storage
+import logging
 from environ import Env
 env = Env()
+logger = logging.getLogger(__name__)
 
 Env.read_env()
 
 ENVIRONMENT = env('ENVIRONMENT',default='production')
 
+logger.warning(f"🚀 Environment: {ENVIRONMENT.upper()}")
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -37,9 +41,7 @@ else:
     DEBUG = False
 
 
-ALLOWED_HOSTS = [
-        '*'
-    ]
+ALLOWED_HOSTS = ['*']
 
 
 
@@ -104,20 +106,27 @@ WSGI_APPLICATION = 'akhnaton.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASE_URL = os.environ.get("DATABASE_URL")
+# DATABASE_URL = os.environ.get("DATABASE_URL")
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+POSTGRES_LOCALLY = env.bool('POSTGRES_LOCALLY', default=True)
+
+if POSTGRES_LOCALLY:
+    DATABASES = {
+        'default': dj_database_url.parse(env('DATABASE_URL'))
     }
-}
-CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'ddvsndzxs',
-    'API_KEY': '829615517675862',
-    'API_SECRET': 'Dnb9qsXlmt46dwEDfSfwxxi5Fow'
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+# CLOUDINARY_STORAGE = {
+#     'CLOUD_NAME': 'ddvsndzxs',
+#     'API_KEY': '829615517675862',
+#     'API_SECRET': 'Dnb9qsXlmt46dwEDfSfwxxi5Fow'
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators

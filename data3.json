@@ -1,0 +1,4464 @@
+[
+    {
+        "model": "projects.project",
+        "pk": 10,
+        "fields": {
+            "name": "Attijariwafa Bank2",
+            "titleImage": "project_images/02.jpg",
+            "category": 4,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 11,
+        "fields": {
+            "name": "Hyde park, Club house",
+            "titleImage": "project_images/h1.jpg",
+            "category": 5,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 12,
+        "fields": {
+            "name": "Eva Cosmetics",
+            "titleImage": "project_images/e1.jpg",
+            "category": 6,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 13,
+        "fields": {
+            "name": "Daber",
+            "titleImage": "project_images/e6_TXY63bm.jpg",
+            "category": null,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 14,
+        "fields": {
+            "name": "Alex. Bank-Bagour branch",
+            "titleImage": "project_images/01_UjBuxiN.jpg",
+            "category": 4,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 15,
+        "fields": {
+            "name": "Intesa Sanpaolo Bank (Alex. Bank previuosly)",
+            "titleImage": "project_images/01_Q5AqQGy.jpg",
+            "category": 4,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 16,
+        "fields": {
+            "name": "Intesa Sanpaolo Bank(Alex. Bank previuosly)",
+            "titleImage": "project_images/01_SS6h9Wq.jpg",
+            "category": 4,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 17,
+        "fields": {
+            "name": "JP Morgan Bank",
+            "titleImage": "project_images/01_ii1q4rI.jpg",
+            "category": 4,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 18,
+        "fields": {
+            "name": "National Bank of Egypt",
+            "titleImage": "project_images/01_SOA7mqN.jpg",
+            "category": 4,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 19,
+        "fields": {
+            "name": "National Bank of Egypt",
+            "titleImage": "project_images/04_tEaO4h0.jpg",
+            "category": 4,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 20,
+        "fields": {
+            "name": "Skotia Bank",
+            "titleImage": "project_images/04_zF1g1NA.jpg",
+            "category": 4,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 21,
+        "fields": {
+            "name": "Hyde park, Cluster 4 Villas",
+            "titleImage": "project_images/01_AR2kAqa.jpg",
+            "category": 5,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 22,
+        "fields": {
+            "name": "Hyde park, Cluster 9 Villas",
+            "titleImage": "project_images/06_KcleIuW.jpg",
+            "category": 5,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 23,
+        "fields": {
+            "name": "Mountain View Buildings",
+            "titleImage": "project_images/01_alqxpC9.jpg",
+            "category": 5,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 24,
+        "fields": {
+            "name": "Tawny",
+            "titleImage": "project_images/01_WSrqZfp.jpg",
+            "category": 5,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 25,
+        "fields": {
+            "name": "Horus factory for pharmaceutical industries",
+            "titleImage": "project_images/02_mueqoiO.jpg",
+            "category": 6,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 26,
+        "fields": {
+            "name": "Horus Vet Vaccine Factory",
+            "titleImage": "project_images/01_wKZa9OI.jpg",
+            "category": 6,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 27,
+        "fields": {
+            "name": "Intercare factory",
+            "titleImage": "project_images/01_He5zhce.jpg",
+            "category": 6,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 28,
+        "fields": {
+            "name": "Misr Glass",
+            "titleImage": "project_images/01_3VKdwBi.jpg",
+            "category": 6,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 29,
+        "fields": {
+            "name": "Animal House",
+            "titleImage": "project_images/01_1.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 30,
+        "fields": {
+            "name": "Armanious Group Tower",
+            "titleImage": "project_images/01_xOTii3n.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 31,
+        "fields": {
+            "name": "Assouad textile factory-Admin Buliding",
+            "titleImage": "project_images/01_1_o2Zzc7G.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 32,
+        "fields": {
+            "name": "Huawei meeting room",
+            "titleImage": "project_images/01_dweqkMW.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 33,
+        "fields": {
+            "name": "Huawei Office Building",
+            "titleImage": "project_images/01_1_v3fn8NZ.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 34,
+        "fields": {
+            "name": "Huawei RSC decoration",
+            "titleImage": "project_images/02_PO52Crp.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 35,
+        "fields": {
+            "name": "Maghrabi hospitals and centers",
+            "titleImage": "project_images/03_QywRtcF.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 36,
+        "fields": {
+            "name": "Mazda Show Room",
+            "titleImage": "project_images/05_tWKMLPT.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 37,
+        "fields": {
+            "name": "Mercedes Benz Service Center",
+            "titleImage": "project_images/02_qfVhnp3.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 38,
+        "fields": {
+            "name": "Ministry of transportation",
+            "titleImage": "project_images/01_PgAInJ8.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 39,
+        "fields": {
+            "name": "Roca_Gravena showroom",
+            "titleImage": "project_images/01_8BqZ6Xg.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 40,
+        "fields": {
+            "name": "Travel Ways Egypt Building",
+            "titleImage": "project_images/01_1_J3BAjep.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 41,
+        "fields": {
+            "name": "Uni Sun Building",
+            "titleImage": "project_images/01_RLMSd3K.jpg",
+            "category": 7,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 42,
+        "fields": {
+            "name": "Cluster 18 villas, Hyde park",
+            "titleImage": "project_images/06_qXF7QNe.jpg",
+            "category": 8,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 43,
+        "fields": {
+            "name": "Evagro villa-Sahara compound",
+            "titleImage": "project_images/01_VGwVsFk.jpg",
+            "category": 8,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 44,
+        "fields": {
+            "name": "Hadayek El Ahram Building",
+            "titleImage": "project_images/01_1_kFNRENZ.jpg",
+            "category": 8,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 45,
+        "fields": {
+            "name": "Mr. Amr Samir Villa",
+            "titleImage": "project_images/01_82oSU8b.jpg",
+            "category": 8,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 46,
+        "fields": {
+            "name": "Mr. Galal Magdy Villa",
+            "titleImage": "project_images/01_1_hqUWuNc.jpg",
+            "category": 8,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 47,
+        "fields": {
+            "name": "Mr. Mahmoud Abd El Latif Villa",
+            "titleImage": "project_images/01_xfoiqW8.jpg",
+            "category": 8,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 48,
+        "fields": {
+            "name": "Mr. Tony Assouad Villa",
+            "titleImage": "project_images/01_1_3mNikaK.jpg",
+            "category": 8,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 49,
+        "fields": {
+            "name": "Mr. Youssef Leham",
+            "titleImage": "project_images/01_mdM0yHo.jpg",
+            "category": 8,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 50,
+        "fields": {
+            "name": "Residential Building",
+            "titleImage": "project_images/01_1_8ydo5mE.jpg",
+            "category": 8,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 51,
+        "fields": {
+            "name": "Grand Plaza-Italian restaurant_Disco",
+            "titleImage": "project_images/02_VSgwqeb.jpg",
+            "category": 9,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 52,
+        "fields": {
+            "name": "Prima Life Resort",
+            "titleImage": "project_images/01_atNjwZh.jpg",
+            "category": 9,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 53,
+        "fields": {
+            "name": "Grand Plaza-Spa_Lounge",
+            "titleImage": "project_images/01_onvYHnO.jpg",
+            "category": 9,
+            "location": "Giza",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 10,
+            "workers": 10,
+            "engineers": 10,
+            "info": "Lorem ipsum",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 54,
+        "fields": {
+            "name": "Garden Lakes",
+            "titleImage": "project_images/IMG-20250625-WA0022.jpg",
+            "category": 5,
+            "location": "6th of October",
+            "execution_period": "Giza",
+            "client": "HydePark",
+            "equipments": 80,
+            "workers": 26,
+            "engineers": 16,
+            "info": "اعمال هيكل خرساني وتشطيبات خارجية (فيلا وعمارات)",
+            "million": 2
+        }
+    },
+    {
+        "model": "projects.project",
+        "pk": 55,
+        "fields": {
+            "name": "Horus Eva Pharma",
+            "titleImage": "project_images/IMG-20251026-WA0007.jpg",
+            "category": 6,
+            "location": "6th of October",
+            "execution_period": "3",
+            "client": "Eva",
+            "equipments": 50,
+            "workers": 3,
+            "engineers": 3,
+            "info": "اعمال اعتيادية وتشطيبات شركة ايفا للأدوية (مصنع)",
+            "million": 160
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 29,
+        "fields": {
+            "project": 10,
+            "image": "project_images/07.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 30,
+        "fields": {
+            "project": 10,
+            "image": "project_images/06.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 31,
+        "fields": {
+            "project": 10,
+            "image": "project_images/05.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 32,
+        "fields": {
+            "project": 10,
+            "image": "project_images/04.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 33,
+        "fields": {
+            "project": 10,
+            "image": "project_images/03.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 34,
+        "fields": {
+            "project": 10,
+            "image": "project_images/02_VDzerpo.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 36,
+        "fields": {
+            "project": 11,
+            "image": "project_images/h9.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 37,
+        "fields": {
+            "project": 11,
+            "image": "project_images/h8.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 38,
+        "fields": {
+            "project": 11,
+            "image": "project_images/h7.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 39,
+        "fields": {
+            "project": 11,
+            "image": "project_images/h6.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 40,
+        "fields": {
+            "project": 11,
+            "image": "project_images/h5.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 41,
+        "fields": {
+            "project": 11,
+            "image": "project_images/h4.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 42,
+        "fields": {
+            "project": 11,
+            "image": "project_images/h3.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 43,
+        "fields": {
+            "project": 11,
+            "image": "project_images/h2.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 44,
+        "fields": {
+            "project": 11,
+            "image": "project_images/h1_31fsFfH.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 46,
+        "fields": {
+            "project": 12,
+            "image": "project_images/e5.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 47,
+        "fields": {
+            "project": 12,
+            "image": "project_images/e4.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 48,
+        "fields": {
+            "project": 12,
+            "image": "project_images/e3.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 49,
+        "fields": {
+            "project": 12,
+            "image": "project_images/e2.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 50,
+        "fields": {
+            "project": 12,
+            "image": "project_images/e1_yKHXIwx.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 64,
+        "fields": {
+            "project": 13,
+            "image": "project_images/h2_xYxDjbg.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 65,
+        "fields": {
+            "project": 13,
+            "image": "project_images/h1_I0Zo6OO.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 66,
+        "fields": {
+            "project": 13,
+            "image": "project_images/07_02iEN0q.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 67,
+        "fields": {
+            "project": 13,
+            "image": "project_images/06_9aU8a1K.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 68,
+        "fields": {
+            "project": 13,
+            "image": "project_images/05_spyXTGx.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 69,
+        "fields": {
+            "project": 13,
+            "image": "project_images/04_Q6Ib0W1.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 70,
+        "fields": {
+            "project": 13,
+            "image": "project_images/03_RavvNfI.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 72,
+        "fields": {
+            "project": 13,
+            "image": "project_images/01_myL0kBy.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 73,
+        "fields": {
+            "project": 14,
+            "image": "project_images/01_z0f4k0m.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 74,
+        "fields": {
+            "project": 14,
+            "image": "project_images/02_s7UsNWF.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 75,
+        "fields": {
+            "project": 14,
+            "image": "project_images/03_HK0QbiI.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 76,
+        "fields": {
+            "project": 15,
+            "image": "project_images/01_GQXKFvm.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 77,
+        "fields": {
+            "project": 15,
+            "image": "project_images/02_DBPWcdz.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 78,
+        "fields": {
+            "project": 15,
+            "image": "project_images/03_HHnM4pL.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 79,
+        "fields": {
+            "project": 15,
+            "image": "project_images/04_CexMGCg.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 80,
+        "fields": {
+            "project": 15,
+            "image": "project_images/05_pnctsmj.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 81,
+        "fields": {
+            "project": 16,
+            "image": "project_images/01_NaGO27X.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 82,
+        "fields": {
+            "project": 16,
+            "image": "project_images/02_xriy5FP.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 83,
+        "fields": {
+            "project": 16,
+            "image": "project_images/03_79P1MBG.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 84,
+        "fields": {
+            "project": 16,
+            "image": "project_images/04_KVko4qa.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 85,
+        "fields": {
+            "project": 16,
+            "image": "project_images/05_xBrYaOM.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 86,
+        "fields": {
+            "project": 16,
+            "image": "project_images/06_0yXbjOW.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 87,
+        "fields": {
+            "project": 16,
+            "image": "project_images/07_PucSImM.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 88,
+        "fields": {
+            "project": 16,
+            "image": "project_images/08.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 89,
+        "fields": {
+            "project": 16,
+            "image": "project_images/09.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 90,
+        "fields": {
+            "project": 17,
+            "image": "project_images/01_3ZA5eyY.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 91,
+        "fields": {
+            "project": 17,
+            "image": "project_images/02_Xee70cn.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 92,
+        "fields": {
+            "project": 17,
+            "image": "project_images/03_1mzmOnw.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 93,
+        "fields": {
+            "project": 17,
+            "image": "project_images/04_y4fe4ac.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 94,
+        "fields": {
+            "project": 17,
+            "image": "project_images/05_Rr6hKo5.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 95,
+        "fields": {
+            "project": 18,
+            "image": "project_images/01_OpRsTMb.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 96,
+        "fields": {
+            "project": 18,
+            "image": "project_images/02_cmt8OYA.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 97,
+        "fields": {
+            "project": 18,
+            "image": "project_images/03_ktFVphp.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 98,
+        "fields": {
+            "project": 18,
+            "image": "project_images/04_HWgtrfF.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 99,
+        "fields": {
+            "project": 18,
+            "image": "project_images/05_njpIhmk.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 100,
+        "fields": {
+            "project": 18,
+            "image": "project_images/06_nQBBqJh.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 101,
+        "fields": {
+            "project": 19,
+            "image": "project_images/01_xYIABJ1.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 102,
+        "fields": {
+            "project": 19,
+            "image": "project_images/02_HRM9dWD.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 103,
+        "fields": {
+            "project": 19,
+            "image": "project_images/03_yYZxEr2.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 104,
+        "fields": {
+            "project": 19,
+            "image": "project_images/04_0OuDYP8.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 105,
+        "fields": {
+            "project": 19,
+            "image": "project_images/05_Oi5vSMT.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 106,
+        "fields": {
+            "project": 19,
+            "image": "project_images/06_IcikMZp.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 107,
+        "fields": {
+            "project": 19,
+            "image": "project_images/07_hPBhKKI.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 108,
+        "fields": {
+            "project": 19,
+            "image": "project_images/08_lCsI9FS.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 109,
+        "fields": {
+            "project": 20,
+            "image": "project_images/01_JvmA5G2.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 110,
+        "fields": {
+            "project": 20,
+            "image": "project_images/02_H06Vfv3.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 111,
+        "fields": {
+            "project": 20,
+            "image": "project_images/03_BoXfF9Y.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 112,
+        "fields": {
+            "project": 20,
+            "image": "project_images/04_yBG9AkJ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 113,
+        "fields": {
+            "project": 21,
+            "image": "project_images/01_cTh4Ul4.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 114,
+        "fields": {
+            "project": 21,
+            "image": "project_images/02_tCxj6or.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 115,
+        "fields": {
+            "project": 21,
+            "image": "project_images/03_ESRnuOl.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 116,
+        "fields": {
+            "project": 21,
+            "image": "project_images/04_DK1Yr6Q.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 117,
+        "fields": {
+            "project": 22,
+            "image": "project_images/01_R1Va42x.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 118,
+        "fields": {
+            "project": 22,
+            "image": "project_images/02_3KhXH4y.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 119,
+        "fields": {
+            "project": 22,
+            "image": "project_images/03_8h6xi5x.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 120,
+        "fields": {
+            "project": 22,
+            "image": "project_images/04_J8pUXBe.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 121,
+        "fields": {
+            "project": 22,
+            "image": "project_images/05_7EDxscU.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 122,
+        "fields": {
+            "project": 22,
+            "image": "project_images/06_VZeuF9X.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 123,
+        "fields": {
+            "project": 22,
+            "image": "project_images/07_9DeW5Oj.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 124,
+        "fields": {
+            "project": 22,
+            "image": "project_images/08_Q2CoaZp.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 125,
+        "fields": {
+            "project": 22,
+            "image": "project_images/09_A7qhufg.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 126,
+        "fields": {
+            "project": 23,
+            "image": "project_images/01_EI2a2n7.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 127,
+        "fields": {
+            "project": 23,
+            "image": "project_images/02_25BkbAZ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 128,
+        "fields": {
+            "project": 23,
+            "image": "project_images/03_hAfJbBK.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 129,
+        "fields": {
+            "project": 23,
+            "image": "project_images/04_GfkSKQ6.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 130,
+        "fields": {
+            "project": 23,
+            "image": "project_images/05_ag2AoFH.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 131,
+        "fields": {
+            "project": 23,
+            "image": "project_images/06_aJ2HiQT.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 132,
+        "fields": {
+            "project": 23,
+            "image": "project_images/07_dulqdxr.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 133,
+        "fields": {
+            "project": 23,
+            "image": "project_images/08_G3Z9PMn.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 134,
+        "fields": {
+            "project": 23,
+            "image": "project_images/09_Jy66eje.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 135,
+        "fields": {
+            "project": 24,
+            "image": "project_images/01_4LnJTRe.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 136,
+        "fields": {
+            "project": 24,
+            "image": "project_images/02_OqQZLvO.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 137,
+        "fields": {
+            "project": 24,
+            "image": "project_images/03_15X7z9O.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 138,
+        "fields": {
+            "project": 25,
+            "image": "project_images/01_Vo6GsWu.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 139,
+        "fields": {
+            "project": 25,
+            "image": "project_images/02_lMmMzFh.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 140,
+        "fields": {
+            "project": 25,
+            "image": "project_images/03_cCV6iam.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 141,
+        "fields": {
+            "project": 25,
+            "image": "project_images/04_llKILG5.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 142,
+        "fields": {
+            "project": 25,
+            "image": "project_images/05_pzqVmLU.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 143,
+        "fields": {
+            "project": 25,
+            "image": "project_images/06_Kcl2JGw.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 144,
+        "fields": {
+            "project": 25,
+            "image": "project_images/07_x9dOxdJ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 145,
+        "fields": {
+            "project": 25,
+            "image": "project_images/08_Z5MptF3.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 146,
+        "fields": {
+            "project": 26,
+            "image": "project_images/01_AXQWVKZ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 147,
+        "fields": {
+            "project": 26,
+            "image": "project_images/02_CPv6rLV.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 148,
+        "fields": {
+            "project": 26,
+            "image": "project_images/03_BDnabUD.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 149,
+        "fields": {
+            "project": 26,
+            "image": "project_images/04_w5CK7PG.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 150,
+        "fields": {
+            "project": 27,
+            "image": "project_images/01_UlQvF8O.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 151,
+        "fields": {
+            "project": 27,
+            "image": "project_images/02_sHi2eOm.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 152,
+        "fields": {
+            "project": 27,
+            "image": "project_images/03_EmluT3k.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 153,
+        "fields": {
+            "project": 27,
+            "image": "project_images/04_Iwzb27Q.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 154,
+        "fields": {
+            "project": 28,
+            "image": "project_images/01_MJ5QQa6.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 155,
+        "fields": {
+            "project": 28,
+            "image": "project_images/02_DzRhgSZ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 156,
+        "fields": {
+            "project": 29,
+            "image": "project_images/01_1_KM3GQf2.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 157,
+        "fields": {
+            "project": 30,
+            "image": "project_images/01_KnD5DFR.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 158,
+        "fields": {
+            "project": 30,
+            "image": "project_images/02_TlwvtiK.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 159,
+        "fields": {
+            "project": 30,
+            "image": "project_images/03_rnHNFHa.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 160,
+        "fields": {
+            "project": 30,
+            "image": "project_images/04_Ps2L2mH.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 161,
+        "fields": {
+            "project": 30,
+            "image": "project_images/05_51q3QdO.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 162,
+        "fields": {
+            "project": 31,
+            "image": "project_images/01_1_Z4U94qR.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 163,
+        "fields": {
+            "project": 32,
+            "image": "project_images/01_BBAT16G.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 164,
+        "fields": {
+            "project": 32,
+            "image": "project_images/02_xppTltB.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 165,
+        "fields": {
+            "project": 33,
+            "image": "project_images/01_1_5kc4S1G.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 166,
+        "fields": {
+            "project": 33,
+            "image": "project_images/02_OCCIZx1.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 167,
+        "fields": {
+            "project": 33,
+            "image": "project_images/03_LyaHzkQ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 168,
+        "fields": {
+            "project": 33,
+            "image": "project_images/04_iXZpK11.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 169,
+        "fields": {
+            "project": 33,
+            "image": "project_images/05_yEaQWae.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 170,
+        "fields": {
+            "project": 33,
+            "image": "project_images/06_TAvhqR6.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 171,
+        "fields": {
+            "project": 33,
+            "image": "project_images/07_uD1b9xJ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 172,
+        "fields": {
+            "project": 33,
+            "image": "project_images/08_VNt9lIz.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 173,
+        "fields": {
+            "project": 33,
+            "image": "project_images/09_ekg59l2.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 174,
+        "fields": {
+            "project": 34,
+            "image": "project_images/01_9x4Ys4L.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 175,
+        "fields": {
+            "project": 34,
+            "image": "project_images/02_2bJ4CzE.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 176,
+        "fields": {
+            "project": 34,
+            "image": "project_images/03_SfLfwGV.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 177,
+        "fields": {
+            "project": 34,
+            "image": "project_images/04_3OlPfKQ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 178,
+        "fields": {
+            "project": 34,
+            "image": "project_images/05_0XdNshF.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 179,
+        "fields": {
+            "project": 35,
+            "image": "project_images/01_1_i6KJ665.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 180,
+        "fields": {
+            "project": 35,
+            "image": "project_images/02_mFNKRmY.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 181,
+        "fields": {
+            "project": 35,
+            "image": "project_images/03_HEdMDNG.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 182,
+        "fields": {
+            "project": 35,
+            "image": "project_images/04_ARDJ1py.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 183,
+        "fields": {
+            "project": 35,
+            "image": "project_images/05_7B8uffT.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 184,
+        "fields": {
+            "project": 35,
+            "image": "project_images/06_0dkbMYc.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 185,
+        "fields": {
+            "project": 35,
+            "image": "project_images/07_9dYpyap.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 186,
+        "fields": {
+            "project": 35,
+            "image": "project_images/08_bKzr6bI.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 187,
+        "fields": {
+            "project": 36,
+            "image": "project_images/01_rOzDfIl.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 188,
+        "fields": {
+            "project": 36,
+            "image": "project_images/02_PpwBl85.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 189,
+        "fields": {
+            "project": 36,
+            "image": "project_images/03_hcSqBIe.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 190,
+        "fields": {
+            "project": 36,
+            "image": "project_images/04_OF1jSU0.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 191,
+        "fields": {
+            "project": 36,
+            "image": "project_images/05_7yulLrO.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 192,
+        "fields": {
+            "project": 36,
+            "image": "project_images/06_Zq16Wr0.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 193,
+        "fields": {
+            "project": 36,
+            "image": "project_images/07_3aPthkS.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 194,
+        "fields": {
+            "project": 37,
+            "image": "project_images/01_1_xiade4m.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 195,
+        "fields": {
+            "project": 37,
+            "image": "project_images/02_FEmQ06T.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 196,
+        "fields": {
+            "project": 37,
+            "image": "project_images/03_BqsTWZL.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 197,
+        "fields": {
+            "project": 37,
+            "image": "project_images/04_Bsjc5Wp.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 198,
+        "fields": {
+            "project": 37,
+            "image": "project_images/05_Ls3wEm8.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 199,
+        "fields": {
+            "project": 37,
+            "image": "project_images/06_zsPM3Hl.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 200,
+        "fields": {
+            "project": 37,
+            "image": "project_images/07_2H3Gv38.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 201,
+        "fields": {
+            "project": 37,
+            "image": "project_images/08_hmvkrct.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 202,
+        "fields": {
+            "project": 37,
+            "image": "project_images/09_zbbNBIg.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 203,
+        "fields": {
+            "project": 38,
+            "image": "project_images/01_qqbWfp7.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 204,
+        "fields": {
+            "project": 38,
+            "image": "project_images/02_0r2JfG9.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 205,
+        "fields": {
+            "project": 39,
+            "image": "project_images/01_93IdUh0.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 206,
+        "fields": {
+            "project": 39,
+            "image": "project_images/02_9thgjGj.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 207,
+        "fields": {
+            "project": 39,
+            "image": "project_images/03_5kxl2ts.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 208,
+        "fields": {
+            "project": 39,
+            "image": "project_images/04_o4mGO0C.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 209,
+        "fields": {
+            "project": 39,
+            "image": "project_images/05_NTWk608.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 210,
+        "fields": {
+            "project": 39,
+            "image": "project_images/06_uIizkXK.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 211,
+        "fields": {
+            "project": 39,
+            "image": "project_images/07_HfpSFpw.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 212,
+        "fields": {
+            "project": 40,
+            "image": "project_images/01_1_8SziEkn.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 213,
+        "fields": {
+            "project": 41,
+            "image": "project_images/01_1QtIxZb.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 214,
+        "fields": {
+            "project": 41,
+            "image": "project_images/02_BRKkxnb.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 215,
+        "fields": {
+            "project": 41,
+            "image": "project_images/03_cPF5P9B.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 216,
+        "fields": {
+            "project": 42,
+            "image": "project_images/01_Dp7Zjzx.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 217,
+        "fields": {
+            "project": 42,
+            "image": "project_images/02_1.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 218,
+        "fields": {
+            "project": 42,
+            "image": "project_images/03_75Hya5n.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 219,
+        "fields": {
+            "project": 42,
+            "image": "project_images/04_IrdPfqw.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 220,
+        "fields": {
+            "project": 42,
+            "image": "project_images/05_fyNC3iT.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 221,
+        "fields": {
+            "project": 42,
+            "image": "project_images/06_21Auyyu.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 222,
+        "fields": {
+            "project": 42,
+            "image": "project_images/07_rS53tj2.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 223,
+        "fields": {
+            "project": 42,
+            "image": "project_images/08_yq1QUae.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 224,
+        "fields": {
+            "project": 42,
+            "image": "project_images/09_wroOb31.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 225,
+        "fields": {
+            "project": 43,
+            "image": "project_images/01_wauBwdk.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 226,
+        "fields": {
+            "project": 43,
+            "image": "project_images/02_4IJeDTr.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 227,
+        "fields": {
+            "project": 44,
+            "image": "project_images/01_1_Uc4hJkk.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 228,
+        "fields": {
+            "project": 44,
+            "image": "project_images/02_d0aYgH0.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 229,
+        "fields": {
+            "project": 44,
+            "image": "project_images/03_flRKJLZ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 230,
+        "fields": {
+            "project": 44,
+            "image": "project_images/04_EkV8bbW.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 231,
+        "fields": {
+            "project": 44,
+            "image": "project_images/05_AM5IbQw.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 232,
+        "fields": {
+            "project": 44,
+            "image": "project_images/06_e1MyQ66.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 233,
+        "fields": {
+            "project": 45,
+            "image": "project_images/01_tNE22Kn.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 234,
+        "fields": {
+            "project": 45,
+            "image": "project_images/02_dHlZZL7.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 235,
+        "fields": {
+            "project": 45,
+            "image": "project_images/03_TLJHAI0.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 236,
+        "fields": {
+            "project": 46,
+            "image": "project_images/01_1_txFGtQf.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 237,
+        "fields": {
+            "project": 46,
+            "image": "project_images/02_dSxUF3h.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 238,
+        "fields": {
+            "project": 46,
+            "image": "project_images/03_7pR2NxB.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 239,
+        "fields": {
+            "project": 46,
+            "image": "project_images/04_eLhMwAH.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 240,
+        "fields": {
+            "project": 46,
+            "image": "project_images/05_Hifvy9q.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 241,
+        "fields": {
+            "project": 46,
+            "image": "project_images/06_IVcYA70.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 242,
+        "fields": {
+            "project": 46,
+            "image": "project_images/07_2PCv9US.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 243,
+        "fields": {
+            "project": 46,
+            "image": "project_images/08_WgYkjE9.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 244,
+        "fields": {
+            "project": 46,
+            "image": "project_images/09_YFXyTo1.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 245,
+        "fields": {
+            "project": 47,
+            "image": "project_images/01_6aLjEFR.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 246,
+        "fields": {
+            "project": 47,
+            "image": "project_images/02_Mlr1ppT.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 247,
+        "fields": {
+            "project": 47,
+            "image": "project_images/03_IWh0Lb9.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 248,
+        "fields": {
+            "project": 47,
+            "image": "project_images/04_SqVKFMu.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 249,
+        "fields": {
+            "project": 48,
+            "image": "project_images/01_1_ccr818o.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 250,
+        "fields": {
+            "project": 49,
+            "image": "project_images/01_tHu3Ns4.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 251,
+        "fields": {
+            "project": 49,
+            "image": "project_images/02_3jux1fZ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 252,
+        "fields": {
+            "project": 49,
+            "image": "project_images/03_wTla8zo.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 253,
+        "fields": {
+            "project": 49,
+            "image": "project_images/04_BRyYNV1.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 254,
+        "fields": {
+            "project": 50,
+            "image": "project_images/01_1_hhHjt6s.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 255,
+        "fields": {
+            "project": 50,
+            "image": "project_images/02_X7z37JP.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 256,
+        "fields": {
+            "project": 50,
+            "image": "project_images/03_KyORvRR.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 257,
+        "fields": {
+            "project": 51,
+            "image": "project_images/01_1_jgyIw4o.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 258,
+        "fields": {
+            "project": 51,
+            "image": "project_images/02_JIZo2wQ.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 259,
+        "fields": {
+            "project": 51,
+            "image": "project_images/03_thKBGpX.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 260,
+        "fields": {
+            "project": 52,
+            "image": "project_images/01_M56T1Zl.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 261,
+        "fields": {
+            "project": 52,
+            "image": "project_images/02_xu5ghH3.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 262,
+        "fields": {
+            "project": 52,
+            "image": "project_images/03_1.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 263,
+        "fields": {
+            "project": 52,
+            "image": "project_images/04_Sug5LqK.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 264,
+        "fields": {
+            "project": 52,
+            "image": "project_images/05_9nLo4jd.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 265,
+        "fields": {
+            "project": 53,
+            "image": "project_images/01_VM01Yg8.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 266,
+        "fields": {
+            "project": 53,
+            "image": "project_images/02_JjYRbQ5.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 267,
+        "fields": {
+            "project": 53,
+            "image": "project_images/03_S4li3HM.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 268,
+        "fields": {
+            "project": 53,
+            "image": "project_images/04_BuzpaRz.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 269,
+        "fields": {
+            "project": 53,
+            "image": "project_images/05_6r2AdpD.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 270,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0013.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 271,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0014.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 272,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0015.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 273,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0016.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 274,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0017.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 275,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0018.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 276,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0019.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 277,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0020.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 278,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0021.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 279,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0022_uYkvAkn.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 280,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0023.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 281,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0024.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 282,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0025.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 283,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0026.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 284,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0027.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 285,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0028.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 286,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0029.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 287,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0030.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 288,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0031.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 289,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0032.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 290,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0033.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 291,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0034.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 292,
+        "fields": {
+            "project": 54,
+            "image": "project_images/IMG-20250625-WA0035.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 296,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0002.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 297,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0003.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 298,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0004.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 299,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0005.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 300,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0006.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 301,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0007_oYhSMph.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 302,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0008.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 303,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0009.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 304,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0010.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 305,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0011.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 306,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0012.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 307,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0013.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 308,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0014.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 309,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0015.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 310,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0023.jpg"
+        }
+    },
+    {
+        "model": "projects.projectimage",
+        "pk": 311,
+        "fields": {
+            "project": 55,
+            "image": "project_images/IMG-20251026-WA0026.jpg"
+        }
+    },
+    {
+        "model": "projects.category",
+        "pk": 4,
+        "fields": {
+            "name": "BANKS"
+        }
+    },
+    {
+        "model": "projects.category",
+        "pk": 5,
+        "fields": {
+            "name": "COMPOUNDS"
+        }
+    },
+    {
+        "model": "projects.category",
+        "pk": 6,
+        "fields": {
+            "name": "INDUSTRIAL"
+        }
+    },
+    {
+        "model": "projects.category",
+        "pk": 7,
+        "fields": {
+            "name": "MISCELLANEOUS"
+        }
+    },
+    {
+        "model": "projects.category",
+        "pk": 8,
+        "fields": {
+            "name": "Residential"
+        }
+    },
+    {
+        "model": "projects.category",
+        "pk": 9,
+        "fields": {
+            "name": "Touristic Villages"
+        }
+    },
+    {
+        "model": "projects.contactmessage",
+        "pk": 9,
+        "fields": {
+            "name": "Reham",
+            "email": "Reham@gmail.com",
+            "message": "ديه شركه جامده",
+            "send_copy": true,
+            "created_at": "2025-09-17T10:41:07.061Z"
+        }
+    },
+    {
+        "model": "projects.contactmessage",
+        "pk": 10,
+        "fields": {
+            "name": "Farid Faiz",
+            "email": "faridfaiz71@gmail.com",
+            "message": "asdasdasdasdasqs",
+            "send_copy": true,
+            "created_at": "2026-02-05T14:39:03.230Z"
+        }
+    },
+    {
+        "model": "projects.employmentmessage",
+        "pk": 6,
+        "fields": {
+            "name": "Farid Faiz",
+            "phone": "01276644631",
+            "age": 12,
+            "place_of_residence": "daas",
+            "job_applied_for": "IT",
+            "numbers_of_years_experience": 5,
+            "message": "asdsd",
+            "cv": "cvs/Farid_Fayez_CV_qd496ss.pdf"
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$Bgrq1bnbgUtHRKao79lxvh$xT6vnSnOrIYEo1ocloI6fnwHm76Fm2LmD7EN7J7KSOc=",
+            "last_login": "2026-04-19T08:27:19.580Z",
+            "is_superuser": true,
+            "username": "farid",
+            "first_name": "Farid",
+            "last_name": "Fayez",
+            "email": "faridfaiz71@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2025-04-26T14:59:21Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$AiwyuqgTwq8doBvlc3FQ7v$KUoNXlvKW8IDF3j18ExKwBhvpQaHOehDsV791UUUwoQ=",
+            "last_login": "2025-07-01T10:14:21Z",
+            "is_superuser": false,
+            "username": "reham",
+            "first_name": "Reham",
+            "last_name": "Refky",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2025-06-09T20:40:48Z",
+            "groups": [],
+            "user_permissions": [
+                [
+                    "view_contactmessage",
+                    "projects",
+                    "contactmessage"
+                ]
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$E30nzyanTfPy6wzsLvudAZ$31AjzNMiblFnmwEJ0mG7RJyVCEMCQWk6XIpsALfNL8I=",
+            "last_login": "2025-10-26T09:59:00.259Z",
+            "is_superuser": false,
+            "username": "karim",
+            "first_name": "karim",
+            "last_name": "khawam",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2025-10-26T09:54:34Z",
+            "groups": [],
+            "user_permissions": [
+                [
+                    "add_user",
+                    "auth",
+                    "user"
+                ],
+                [
+                    "change_user",
+                    "auth",
+                    "user"
+                ],
+                [
+                    "delete_user",
+                    "auth",
+                    "user"
+                ],
+                [
+                    "view_user",
+                    "auth",
+                    "user"
+                ],
+                [
+                    "add_contenttype",
+                    "contenttypes",
+                    "contenttype"
+                ],
+                [
+                    "change_contenttype",
+                    "contenttypes",
+                    "contenttype"
+                ],
+                [
+                    "delete_contenttype",
+                    "contenttypes",
+                    "contenttype"
+                ],
+                [
+                    "view_contenttype",
+                    "contenttypes",
+                    "contenttype"
+                ],
+                [
+                    "add_category",
+                    "projects",
+                    "category"
+                ],
+                [
+                    "change_category",
+                    "projects",
+                    "category"
+                ],
+                [
+                    "delete_category",
+                    "projects",
+                    "category"
+                ],
+                [
+                    "view_category",
+                    "projects",
+                    "category"
+                ],
+                [
+                    "add_contactmessage",
+                    "projects",
+                    "contactmessage"
+                ],
+                [
+                    "change_contactmessage",
+                    "projects",
+                    "contactmessage"
+                ],
+                [
+                    "delete_contactmessage",
+                    "projects",
+                    "contactmessage"
+                ],
+                [
+                    "view_contactmessage",
+                    "projects",
+                    "contactmessage"
+                ],
+                [
+                    "add_project",
+                    "projects",
+                    "project"
+                ],
+                [
+                    "change_project",
+                    "projects",
+                    "project"
+                ],
+                [
+                    "delete_project",
+                    "projects",
+                    "project"
+                ],
+                [
+                    "view_project",
+                    "projects",
+                    "project"
+                ],
+                [
+                    "add_projectimage",
+                    "projects",
+                    "projectimage"
+                ],
+                [
+                    "change_projectimage",
+                    "projects",
+                    "projectimage"
+                ],
+                [
+                    "delete_projectimage",
+                    "projects",
+                    "projectimage"
+                ],
+                [
+                    "view_projectimage",
+                    "projects",
+                    "projectimage"
+                ]
+            ]
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "6alt4wcgpf3d1t7ezgl7qf16z2pou495",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHWfJ0yvc-AFliCkwhLxq6i3D1GcpG0b2bem3nct-L3RqufE7syYJffLWB8Uu0gPbDeFx6Xuq1z4F3hJ218WhK9bqf7d1CwlaM2RgSXBVhLUQEqp4VDEzGDyCCHjoIEq5U7TJLDqEcFMlBQGrVAzT5fuio2nQ:1vneU1:xa_PKTVUxoMbGpC5IXrDf9FwXgz9OuLV9WyetPWQTEg",
+            "expire_date": "2026-02-18T15:07:57.230Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "8m7sk9v0licimcu60ejitht30gmasep7",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHWfJ0yvc-AFliCkwhLxq6i3D1GcpG0b2bem3nct-L3RqufE7syYJffLWB8Uu0gPbDeFx6Xuq1z4F3hJ218WhK9bqf7d1CwlaM2RgSXBVhLUQEqp4VDEzGDyCCHjoIEq5U7TJLDqEcFMlBQGrVAzT5fuio2nQ:1vCxXW:_2yTEprkjTKYfxkFX0a3vWImAq1uYm_mRIeN20sJLwk",
+            "expire_date": "2025-11-09T09:59:54.394Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "9otm3a2lobohnmy4z9v5io8wjl5drnic",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAURO_C2hDKBwou3fcM5MMHqRpISrsy3t026UJ3k3lv5s08bmvxW0-Ln4ld2cAuv13A-Ez1APTAem88trouc-CHwk_a-dQovW6n-3dQsJd9HbRUedAZaIwEDgyMVloprDMSpUHSRtmcVZBkjXNCJDAR95xBaaLIPl_CBzdb:1uOjL3:5zru0uGjuzhckjxZumqSobGMrNgvxYBvSI4hM3slwA8",
+            "expire_date": "2025-06-23T20:43:25.216Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "dsqw62yc8cz46e2de9dcqjwk0cquzo03",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlmK1t4llPScIdqfSQA5Uj5VxN0hUgpo38y8LXS8Ln23zj51g4VLaMLpdxPWp9cd2IPrfYw61mUaJO5KPOgcb6P563q4fwc9z_23TixWWnLJXoARjFNqk4sBnYE9m4KoAeZC6JkYMSkiYWNMJKrh_QEXMzkF:1u8h0A:xTyR3zrOM2YkX4GyOTbxlV4sWQelPwzaoMJI36-yka8",
+            "expire_date": "2025-05-10T14:59:34.730Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ekmok88f48zmfounbfe3cx36vcsjr2ld",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHWfJ0yvc-AFliCkwhLxq6i3D1GcpG0b2bem3nct-L3RqufE7syYJffLWB8Uu0gPbDeFx6Xuq1z4F3hJ218WhK9bqf7d1CwlaM2RgSXBVhLUQEqp4VDEzGDyCCHjoIEq5U7TJLDqEcFMlBQGrVAzT5fuio2nQ:1vCxXU:B5SDjEroQaN-7Iz8ri7RHVmBjFhW2dHd3YmGsrud90k",
+            "expire_date": "2025-11-09T09:59:52.559Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "hnncsdfojoe66q2sz6gyfuustn8lbjoh",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSFSSgdcuu83kGFmkKqBpI-V8d-1SRe6veec-1IRt7XEbZE5TqwuyqrT75aQHlJ3wHest6ap1XWekt4VfdBFj43leT3cv4OCS_nW2Z4d2953CSGYoQsSgrdmcAIE7DJgoGQw9Il6A0xCA6CD7C1yl8Wo9wfVczgd:1uSEsR:7eIZEFnrBEPIuC1uk308G_P74OR6C_j4Xx232MOykY8",
+            "expire_date": "2025-07-03T13:00:23.799Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "lcuu7kf5n6rz8uw7mb1jblfuq7cw6vb9",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHWfJ0yvc-AFliCkwhLxq6i3D1GcpG0b2bem3nct-L3RqufE7syYJffLWB8Uu0gPbDeFx6Xuq1z4F3hJ218WhK9bqf7d1CwlaM2RgSXBVhLUQEqp4VDEzGDyCCHjoIEq5U7TJLDqEcFMlBQGrVAzT5fuio2nQ:1uZm1N:iQmFaLnrHO8gkUUWw-Gf99GJ0x5mhYzGBvAygWf84og",
+            "expire_date": "2025-07-24T07:48:45.123Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "lov6tj39c977z5q3pcdtfmoj3kvinbye",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHWfJ0yvc-AFliCkwhLxq6i3D1GcpG0b2bem3nct-L3RqufE7syYJffLWB8Uu0gPbDeFx6Xuq1z4F3hJ218WhK9bqf7d1CwlaM2RgSXBVhLUQEqp4VDEzGDyCCHjoIEq5U7TJLDqEcFMlBQGrVAzT5fuio2nQ:1wENUt:xEYm2WyGcP439aGbXy9UuL_NTumadl24g191vagKvnI",
+            "expire_date": "2026-05-03T08:27:19.690Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "r6vxon3nh3irlejl49b04mzecyi67mpg",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlmK1t4llPScIdqfSQA5Uj5VxN0hUgpo38y8LXS8Ln23zj51g4VLaMLpdxPWp9cd2IPrfYw61mUaJO5KPOgcb6P563q4fwc9z_23TixWWnLJXoARjFNqk4sBnYE9m4KoAeZC6JkYMSkiYWNMJKrh_QEXMzkF:1uBHhC:ABJA1pVOoZ7DAzI1EfNX78fLwaTJVAg2-exynDDqn94",
+            "expire_date": "2025-05-17T18:34:42.416Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "v1eq8wqjktp38owaz5voscx1fl4pzvfx",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHWfJ0yvc-AFliCkwhLxq6i3D1GcpG0b2bem3nct-L3RqufE7syYJffLWB8Uu0gPbDeFx6Xuq1z4F3hJ218WhK9bqf7d1CwlaM2RgSXBVhLUQEqp4VDEzGDyCCHjoIEq5U7TJLDqEcFMlBQGrVAzT5fuio2nQ:1vBwkn:ysQZDHViywR7zNYGGCsWMKsuZRb1T3zxpPArKxDTtgc",
+            "expire_date": "2025-11-06T14:57:25.372Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "vzkrxdjqhsulegdye3or5wcaexsea3qk",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlmK1t4llPScIdqfSQA5Uj5VxN0hUgpo38y8LXS8Ln23zj51g4VLaMLpdxPWp9cd2IPrfYw61mUaJO5KPOgcb6P563q4fwc9z_23TixWWnLJXoARjFNqk4sBnYE9m4KoAeZC6JkYMSkiYWNMJKrh_QEXMzkF:1uGii0:iPJtIK2OXL37FCKV_6mp1bshL7h2Tc7O66tI99x8H6o",
+            "expire_date": "2025-06-01T18:26:00.661Z"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2025-04-26T14:59:55.769Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "1",
+            "object_repr": "Project object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2025-04-26T15:01:40.749Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "2",
+            "object_repr": "Hyde Park",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2025-05-18T18:26:39.861Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "projectimage"
+            ],
+            "object_id": "1",
+            "object_repr": "Image for Hyde Park",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2025-05-18T18:26:53.388Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "projectimage"
+            ],
+            "object_id": "1",
+            "object_repr": "Image for Hyde Park",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2025-05-18T18:27:02.107Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "projectimage"
+            ],
+            "object_id": "2",
+            "object_repr": "Image for Daber",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2025-05-18T18:27:08.749Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "projectimage"
+            ],
+            "object_id": "3",
+            "object_repr": "Image for Daber",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2025-05-18T19:19:39.501Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "projectimage"
+            ],
+            "object_id": "4",
+            "object_repr": "Image for Samaya",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2025-05-27T19:07:32.102Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "4",
+            "object_repr": "Lol",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2025-05-27T19:07:44.212Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "3",
+            "object_repr": "Samaya",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2025-05-27T19:07:44.212Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "2",
+            "object_repr": "Hyde Park",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2025-05-27T19:07:44.212Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "1",
+            "object_repr": "Daber",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2025-05-27T19:08:12.768Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "5",
+            "object_repr": "hydepark",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2025-05-27T19:17:27.311Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "projectimage"
+            ],
+            "object_id": "5",
+            "object_repr": "Image for hydepark",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2025-05-31T18:17:30.061Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "projectimage"
+            ],
+            "object_id": "20",
+            "object_repr": "Image for Farid Faiz",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2025-05-31T18:17:36.459Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "projectimage"
+            ],
+            "object_id": "21",
+            "object_repr": "Image for Farid Faiz",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2025-06-01T08:13:19.405Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "9",
+            "object_repr": "Dark",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2025-06-01T08:13:19.405Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "8",
+            "object_repr": "Stranger things",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2025-06-01T08:13:19.405Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "7",
+            "object_repr": "Farid Faiz",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2025-06-01T08:13:19.405Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "6",
+            "object_repr": "comedy movie",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2025-06-01T08:13:19.405Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "5",
+            "object_repr": "hydepark new",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2025-06-05T19:36:49.164Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "1",
+            "object_repr": "buildings",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2025-06-05T19:36:55.535Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "2",
+            "object_repr": "hospitals",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2025-06-05T19:37:06.726Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "3",
+            "object_repr": "factories",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2025-06-05T19:37:15.578Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "13",
+            "object_repr": "Daber",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2025-06-05T19:37:21.318Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "12",
+            "object_repr": "Eva Cosmetics",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2025-06-05T19:37:25.574Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "11",
+            "object_repr": "Hyde park, Club house",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2025-06-05T19:37:30.037Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "10",
+            "object_repr": "Attijariwafa Bank",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2025-06-09T18:47:04.485Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "3",
+            "object_repr": "factories",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2025-06-09T18:47:04.485Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "2",
+            "object_repr": "hospitals",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2025-06-09T18:47:04.485Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "1",
+            "object_repr": "buildings",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2025-06-09T18:47:26.432Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "4",
+            "object_repr": "Banks",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2025-06-09T18:48:17.456Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "5",
+            "object_repr": "COMPOUNDS",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2025-06-09T18:48:23.853Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "4",
+            "object_repr": "BANKS",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2025-06-09T18:48:41.318Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "6",
+            "object_repr": "INDUSTRIAL",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2025-06-09T18:49:03.891Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "7",
+            "object_repr": "MISCELLANEOUS",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2025-06-09T18:49:39.531Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "8",
+            "object_repr": "Residential",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2025-06-09T18:50:08.240Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "category"
+            ],
+            "object_id": "9",
+            "object_repr": "Touristic Villages",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2025-06-09T19:03:03.317Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "10",
+            "object_repr": "Attijariwafa Bank",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2025-06-09T19:07:31.674Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "11",
+            "object_repr": "Hyde park, Club house",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2025-06-09T19:16:20.659Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "project"
+            ],
+            "object_id": "12",
+            "object_repr": "Eva Cosmetics",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2025-06-09T20:35:59.876Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "contactmessage"
+            ],
+            "object_id": "8",
+            "object_repr": "Message from Tetooooooooooooo - teto@gmail.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2025-06-09T20:37:40.884Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "2",
+            "object_repr": "reham",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2025-06-09T20:38:12.425Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "contactmessage"
+            ],
+            "object_id": "7",
+            "object_repr": "Message from farid - farid@gmail.com",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Message\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2025-06-09T20:38:44.161Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "2",
+            "object_repr": "reham",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2025-06-09T20:39:47.871Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "2",
+            "object_repr": "reham",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2025-06-09T20:40:04.155Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "2",
+            "object_repr": "reham",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2025-06-09T20:40:28.405Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "2",
+            "object_repr": "reham",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2025-06-09T20:40:48.855Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "3",
+            "object_repr": "reham",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2025-06-09T20:40:59.528Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "3",
+            "object_repr": "reham",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2025-06-09T20:41:07.731Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "3",
+            "object_repr": "reham",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2025-06-09T20:41:52.497Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "3",
+            "object_repr": "reham",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2025-06-09T20:43:37.157Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "contactmessage"
+            ],
+            "object_id": "7",
+            "object_repr": "Message from farid - farid@gmail.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2025-06-10T07:43:16.752Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "contactmessage"
+            ],
+            "object_id": "6",
+            "object_repr": "Message from Mina - mina@example.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2025-06-10T07:43:16.752Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "contactmessage"
+            ],
+            "object_id": "5",
+            "object_repr": "Message from Reham - reham@gmail.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2025-06-10T07:43:16.752Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "contactmessage"
+            ],
+            "object_id": "4",
+            "object_repr": "Message from Reham - reham@gmail.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2025-06-10T07:43:16.752Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "contactmessage"
+            ],
+            "object_id": "3",
+            "object_repr": "Message from Verena Fayez - faridfaiz71@gmail.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2025-06-10T07:43:16.752Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "contactmessage"
+            ],
+            "object_id": "2",
+            "object_repr": "Message from Verena Fayez - faridfaiz71@gmail.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2025-06-10T07:43:16.752Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "contactmessage"
+            ],
+            "object_id": "1",
+            "object_repr": "Message from Farid Faiz - faridfaiz71@gmail.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2025-06-19T12:32:37.980Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "3",
+            "object_repr": "reham",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2025-10-26T09:54:37.047Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "4",
+            "object_repr": "karim",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2025-10-26T09:57:49.045Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "4",
+            "object_repr": "karim",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"User permissions\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2025-10-26T09:58:06.148Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "3",
+            "object_repr": "reham",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2025-10-26T09:58:26.183Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "auth",
+                "user"
+            ],
+            "object_id": "1",
+            "object_repr": "farid",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2026-02-04T14:22:56.133Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "employmentmessage"
+            ],
+            "object_id": "2",
+            "object_repr": "EmploymentMessage object (2)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2026-02-04T14:22:56.133Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "employmentmessage"
+            ],
+            "object_id": "1",
+            "object_repr": "EmploymentMessage object (1)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2026-02-05T08:50:25.923Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "employmentmessage"
+            ],
+            "object_id": "5",
+            "object_repr": "EmploymentMessage object (5)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2026-02-05T08:50:25.924Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "employmentmessage"
+            ],
+            "object_id": "4",
+            "object_repr": "EmploymentMessage object (4)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+            "action_time": "2026-02-05T08:50:25.924Z",
+            "user": [
+                "farid"
+            ],
+            "content_type": [
+                "projects",
+                "employmentmessage"
+            ],
+            "object_id": "3",
+            "object_repr": "EmploymentMessage object (3)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    }
+]
