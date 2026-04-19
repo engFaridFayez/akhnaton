@@ -56,12 +56,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # 'cloudinary_storage',
+    'cloudinary_storage',
     'cloudinary',
     'widget_tweaks',
 
 ]
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -125,11 +127,6 @@ else:
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
-# CLOUDINARY_STORAGE = {
-#     'CLOUD_NAME': 'ddvsndzxs',
-#     'API_KEY': '829615517675862',
-#     'API_SECRET': 'Dnb9qsXlmt46dwEDfSfwxxi5Fow'
-# }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
@@ -175,18 +172,21 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = 'media/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR,'media')
-
-# if ENVIRONMENT == 'production' or
-# DEFAULT_FILE_STORAGE = cloudinary_storage.storage.MediaCloudinaryStorage
 
 
+if ENVIRONMENT == 'production':
+    DEFAULT_FILE_STORAGE = [
+        'cloudinary_storage.storage.MediaCloudinaryStorage',
+        'cloudinary_storage.storage.VideoMediaCloudinaryStorage'
+    ]
+else:
+    MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
-# CLOUDINARY_STORAGE = {
-#     'CLOUD_NAME': env('CLOUD_NAME'),
-#     'API_KEY': env('CLOUD_API_KEY'),
-#     'API_SECRET': env('CLOUD_API_SECRET')
-# }
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': env('CLOUD_NAME'),
+    'API_KEY': env('CLOUD_API_KEY'),
+    'API_SECRET': env('CLOUD_API_SECRET')
+}
 
 TIME_ZONE = 'Africa/Cairo'
 USE_TZ = True
