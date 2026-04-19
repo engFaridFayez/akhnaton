@@ -1,294 +1,459 @@
 {% load static %}
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akhnaton Co</title>
     <!-- MDB CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+      rel="stylesheet"
+    />
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <link rel="icon" href="/favicon.ico">
-    <link rel="stylesheet" href="{% static 'projects/css/projects.css' %}">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="{% static 'projects/css/projects.css' %}" />
 
     <style>
-        .navbar .nav-link {
-            color: rgb(67, 65, 65);
-            font-size: x-large;
-        }
+      .navbar .nav-link {
+        color: rgb(67, 65, 65);
+        font-size: x-large;
+      }
 
-        .nav-item.active>.nav-link {
-            color: #ffc107;
-        }
+      .nav-item.active > .nav-link {
+        color: #ffc107;
+      }
 
-        .navbar .nav-link:hover {
-            color: #ffc107;
-        }
+      .navbar .nav-link:hover {
+        color: #ffc107;
+      }
 
-        .navbar .nav-link.active {
-            color: #ffc107;
-        }
+      .navbar .nav-link.active {
+        color: #ffc107;
+      }
 
-        .custom-home-navbar {
-            padding-top: 25px;
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-            z-index: 1000;
-            border: none !important;
-            box-shadow: none !important;
-        }
+      .custom-home-navbar {
+        padding-top: 25px;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0)
+        );
+        z-index: 1000;
+        border: none !important;
+        box-shadow: none !important;
+      }
 
-        .custom-sticky-navbar {
-            background-color: #ffc107;
-            /* Dark background for normal navbar */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            /* Subtle shadow */
-            z-index: 1000;
-            padding: 10px 0;
-        }
+      .custom-sticky-navbar {
+        background-color: #ffc107;
+        /* Dark background for normal navbar */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+        z-index: 1000;
+        padding: 10px 0;
+      }
 
-        .btn-outline-dark:hover {
-            background-color: black;
-            color: white;
-        }
+      .btn-outline-dark:hover {
+        background-color: black;
+        color: white;
+      }
     </style>
-</head>
+  </head>
 
-<body class=" {% block bodyColor %} bg-white {% endblock %} ">
-
-    {% block navbar %} <!-- Navbar -->
+  <body class="{% block bodyColor %} bg-white {% endblock %}">
+    {% block navbar %}
+    <!-- Navbar -->
     <nav
-        class="navbar navbar-expand-lg {% block navbar_class %} navbar-light fixed-top custom-home-navbar {% endblock %} ">
+      class="navbar navbar-expand-lg {% block navbar_class %} navbar-light fixed-top custom-home-navbar {% endblock %}"
+    >
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars" style="color: black"></i>
+        </button>
 
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-            <!-- Toggle button -->
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars" style="color: black;"></i>
-            </button>
+        <!-- Collapsible wrapper -->
 
-            <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="{% url 'index' %}">
+            <img
+              style="box-shadow: inset 0 4px 4px -4px rgba(0, 0, 0, 0.5)"
+              src="{% static 'images/logo.jpg' %}"
+              height="70"
+              width="250"
+              alt="MDB Logo"
+              loading="lazy"
+            />
+          </a>
+          <!-- Left links -->
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- Navbar brand -->
-                <a class="navbar-brand mt-2 mt-lg-0" href="{% url 'index' %}">
-                    <img style="box-shadow: inset 0 4px 4px -4px rgba(0, 0, 0, 0.5)"
-                        src="{% static 'images/logo.jpg' %}" height="70" width="250" alt="MDB Logo" loading="lazy" />
-                </a>
-                <!-- Left links -->
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
 
-                <!-- Left links -->
-            </div>
-            <!-- Collapsible wrapper -->
+        <!-- Right elements -->
+        <!-- Collapsible wrapper -->
+        <!-- Navbar brand -->
 
-            <!-- Right elements -->
-            <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- Navbar brand -->
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link {% if request.resolver_match.url_name == 'index' %}active{% endif %}"
+              href="{% url 'index' %}"
+              >Home</a
+            >
+          </li>
+          <li
+            class="nav-item dropdown {% if request.resolver_match.url_name == 'about' or request.resolver_match.url_name == 'tools' or request.resolver_match.url_name == 'consultants' or request.resolver_match.url_name == 'sub-contractors' or request.resolver_match.url_name == 'certificates_of_appreciation' %}active{% endif %}"
+          >
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              About Us
+            </a>
+            <ul
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdownMenuLink"
+              style="background-color: rgb(227, 171, 67); font-size: medium"
+            >
+              <li>
+                <a class="dropdown-item" href="{% url 'about' %}"
+                  >About Akhnaton</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="{% url 'tools' %}"
+                  >Equipment, & Tools</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="{% url 'consultants' %}"
+                  >Consultants</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="{% url 'sub-contractors' %}"
+                  >Sub-Contractors</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{% url 'certificates_of_appreciation' %}"
+                  >Certificates of Appreciation</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link {% if request.resolver_match.url_name == 'projects' %}active{% endif %}"
+              href="{% url 'projects' %}"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link {% if request.resolver_match.url_name == 'services' %}active{% endif %}"
+              href="{% url 'services' %}"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link {% if request.resolver_match.url_name == 'employment' %}active{% endif %}"
+              href="{% url 'employment' %}"
+              >Employment</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link {% if request.resolver_match.url_name == 'contact' %}active{% endif %}"
+              href="{% url 'contact' %}"
+              >Contant Us</a
+            >
+          </li>
+        </ul>
+        <!-- Avatar dropdown -->
+        <div class="dropdown">
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <button class="btn btn-warning">Staff &dArr;</button>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            style="background-color: orange; height: 50%"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            {% if request.user.is_authenticated %}
+            <form method="post" action="{% url 'logout' %}">
+              {% csrf_token %}
+              <button
+                class="btn text-info"
+                style="
+                  width: 100%;
+                  background-color: rgb(255, 159, 5);
+                  font-size: small;
+                  font-weight: 900;
+                "
+                type="submit"
+              >
+                Logout
+              </button>
+            </form>
 
-                <!-- Left links -->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.resolver_match.url_name == 'index' %}active{% endif %}"
-                            href="{% url 'index' %}">Home</a>
-                    </li>
-                    <li
-                        class="nav-item dropdown {% if request.resolver_match.url_name == 'about' or request.resolver_match.url_name == 'tools' or request.resolver_match.url_name == 'consultants' or request.resolver_match.url_name == 'sub-contractors' or request.resolver_match.url_name == 'certificates_of_appreciation' %}active{% endif %}">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-mdb-toggle="dropdown" aria-expanded="false">
-                            About Us
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"
-                            style="background-color: rgb(227, 171, 67);font-size: medium;">
-                            <li><a class="dropdown-item" href="{% url 'about' %}">About Akhnaton</a></li>
-                            <li><a class="dropdown-item" href="{% url 'tools' %}">Equipment, & Tools</a></li>
-                            <li><a class="dropdown-item" href="{% url 'consultants' %}">Consultants</a></li>
-                            <li><a class="dropdown-item" href="{% url 'sub-contractors' %}">Sub-Contractors</a></li>
-                            <li><a class="dropdown-item" href="{% url 'certificates_of_appreciation' %}">Certificates of
-                                    Appreciation</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.resolver_match.url_name == 'projects' %}active{% endif %}"
-                            href="{% url 'projects' %}">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.resolver_match.url_name == 'services' %}active{% endif %}"
-                            href="{% url 'services' %}">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.resolver_match.url_name == 'employment' %}active{% endif %}"
-                            href="{% url 'employment' %}">Employment</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.resolver_match.url_name == 'contact' %}active{% endif %}"
-                            href="{% url 'contact' %}">Contant Us</a>
-                    </li>
-                </ul>
-                <!-- Avatar dropdown -->
-                <div class="dropdown">
-                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
-                        id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                        <button class="btn btn-warning">Staff &dArr;</button>
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-end" style="background-color: orange;height: 50%;"
-                        aria-labelledby="navbarDropdownMenuAvatar">
-                        {% if request.user.is_authenticated %}
-                        <form method="post" action="{% url 'logout' %}">
-                            {% csrf_token %}
-                            <button class="btn text-info "
-                                style="width: 100%;background-color:rgb(255, 159, 5);font-size: small;font-weight: 900;"
-                                type="submit">Logout</button>
-                        </form>
+            {% else %}
+            <a
+              class="btn text-info"
+              style="
+                width: 100%;
+                background-color: rgb(255, 159, 5);
+                font-size: small;
+                font-weight: 900;
+              "
+              href="{%url 'login' %}"
+              >Login</a
+            >
 
-                        {% else %}
-                        <a class="btn text-info "
-                            style="width: 100%;background-color:rgb(255, 159, 5);font-size: small;font-weight: 900;"
-                            href="{%url 'login' %}">Login</a>
-
-                        {% endif %}
-
-                    </ul>
-                </div>
-            </div>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- Navbar -->
-    {% endblock navbar %}
-    {% block content %}
-
-    {% endblock content %}
-
-    {% block footer %}
+    {% endblock navbar %} {% block content %} {% endblock content %} {% block
+    footer %}
     <!-- Footer -->
-    <footer style=" background: RGB(235, 184, 16);
-                    background: radial-gradient(circle,rgba(235, 184, 16, 1) 0%, rgba(0, 0, 0, 1) 100%);"
-        class="mt-5 text-center">
-        <!-- Grid container -->
-        <div class="container p-4">
-            <!-- Section: Social media -->
+    <footer
+      style="
+        background: RGB(235, 184, 16);
+        background: radial-gradient(
+          circle,
+          rgba(235, 184, 16, 1) 0%,
+          rgba(0, 0, 0, 1) 100%
+        );
+      "
+      class="mt-5 text-center"
+    >
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
 
-            {% block social %}
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1"
-                    href="https://www.facebook.com/profile.php?id=100054644430517" target="_blank" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
+        {% block social %}
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-outline btn-floating m-1"
+            href="https://www.facebook.com/profile.php?id=100054644430517"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
 
-                <!-- Google -->
-                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://www.akhnatonco.com"
-                    target="_blank" role="button"><i class="fab fa-google"></i></a>
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-outline btn-floating m-1"
+            href="https://www.akhnatonco.com"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
 
-                <!-- Linkedin -->
-                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1"
-                    href="https://www.linkedin.com/company/akhnaton-for-construction-and-real-estate-development/"
-                    target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-outline btn-floating m-1"
+            href="https://www.linkedin.com/company/akhnaton-for-construction-and-real-estate-development/"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
 
-                <!-- Youtube -->
-                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1"
-                    href="https://www.youtube.com/@akhnaton-j4p" target="_blank" role="button"><i
-                        class="fab fa-youtube"></i></a>
-                <!-- Whatsapp -->
-                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://wa.me/201022207319"
-                    target="_blank" role="button"><i class="fab fa-whatsapp"></i></a>
-            </section>
-            <!-- Section: Social media -->
-            {% endblock social %}
+          <!-- Youtube -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-outline btn-floating m-1"
+            href="https://www.youtube.com/@akhnaton-j4p"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <!-- Whatsapp -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-outline btn-floating m-1"
+            href="https://wa.me/201022207319"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+        {% endblock social %}
 
-            <!-- Section: Text -->
-            <section class="mb-4">
-                <p style="color: white;">
-                    Akhnaton (ACRED), was established in the spirit of
-                    providing a broad spectrum of Real Estate and Construction
-                </p>
-            </section>
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p style="color: white">
+            Akhnaton (ACRED), was established in the spirit of providing a broad
+            spectrum of Real Estate and Construction
+          </p>
+        </section>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="facebook-ads d-flex justify-content-evenly">
-                            <a href="https://www.facebook.com/profile.php?id=100054644430517" target="_blank">
-                                <div style="border: 2px solid #1877F2;width: 370px;">
-                                    <div class="ad-card row m-0 p-0">
-                                        <div class="col-6">
-                                            <h3 class="col-6 m-0 p-0" style="color: #1877F2;">Facebook</h3>
-                                            <h5 style="color: rgb(201, 200, 198);">Find us on facebook </h5>
-                                            <button class="btn btn-outline-dark">Visit</button>
-                                        </div>
-                                        <img class="col-6 m-0 p-0" src="{% static 'images/facebookAd.png' %}"
-                                            height="150px" width="350px" alt="Facebook Ad">
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 mb-4">
+              <div class="facebook-ads d-flex justify-content-evenly">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100054644430517"
+                  target="_blank"
+                >
+                  <div style="border: 2px solid #1877f2; width: 370px">
+                    <div class="ad-card row m-0 p-0">
+                      <div class="col-6">
+                        <h3 class="col-6 m-0 p-0" style="color: #1877f2">
+                          Facebook
+                        </h3>
+                        <h5 style="color: rgb(201, 200, 198)">
+                          Find us on facebook
+                        </h5>
+                        <button class="btn btn-outline-dark">Visit</button>
+                      </div>
+                      <img
+                        class="col-6 m-0 p-0"
+                        src="{% static 'images/facebookAd.png' %}"
+                        height="150px"
+                        width="350px"
+                        alt="Facebook Ad"
+                      />
                     </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="youtube-ads d-flex justify-content-evenly">
-                            <a href="https://www.youtube.com/@akhnaton-j4p" target="_blank">
-                                <div style="border: 2px solid #FF0000;width: 370px;">
-                                    <div class="ad-card row m-0 p-0">
-                                        <div class="col-6">
-                                            <h3 class="col-6 m-0 p-0" style="color: #FF0000;">Youtube</h3>
-                                            <h5 style="color: rgb(201, 200, 198);">Watch us on youtube </h5>
-                                            <button class="btn btn-outline-dark">Visit</button>
-                                        </div>
-                                        <img class="col-6 m-0 p-0" src="{% static 'images/youtubeAd.png' %}"
-                                            height="150px" width="350px" alt="Facebook Ad">
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-4 mb-4">
-                        <div class="linkedin-ads d-flex justify-content-evenly">
-                            <a target="_blank"
-                                href="https://www.linkedin.com/company/akhnaton-for-construction-and-real-estate-development/">
-                                <div style="border: 2px solid #0077B5;width: 370px;">
-                                    <div class="ad-card row m-0 p-0">
-                                        <div class="col-6">
-                                            <h3 class="col-6 m-0 p-0" style="color: #0077B5;">Linkedin</h3>
-                                            <h5 style="color:rgb(201, 200, 198);">know more about us on linkedin </h5>
-                                            <button class="btn btn-outline-dark">Visit</button>
-                                        </div>
-                                        <img class="col-6 m-0 p-0" src="{% static 'images/linkedinAd.png' %}"
-                                            height="150px" width="350px" alt="Facebook Ad">
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                  </div>
+                </a>
+              </div>
             </div>
-            <!-- Section: Text --> <!-- Section: Links -->
-
+            <div class="col-12 col-md-4 mb-4">
+              <div class="youtube-ads d-flex justify-content-evenly">
+                <a href="https://www.youtube.com/@akhnaton-j4p" target="_blank">
+                  <div style="border: 2px solid #ff0000; width: 370px">
+                    <div class="ad-card row m-0 p-0">
+                      <div class="col-6">
+                        <h3 class="col-6 m-0 p-0" style="color: #ff0000">
+                          Youtube
+                        </h3>
+                        <h5 style="color: rgb(201, 200, 198)">
+                          Watch us on youtube
+                        </h5>
+                        <button class="btn btn-outline-dark">Visit</button>
+                      </div>
+                      <img
+                        class="col-6 m-0 p-0"
+                        src="{% static 'images/youtubeAd.png' %}"
+                        height="150px"
+                        width="350px"
+                        alt="Facebook Ad"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-4 mb-4">
+              <div class="linkedin-ads d-flex justify-content-evenly">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/akhnaton-for-construction-and-real-estate-development/"
+                >
+                  <div style="border: 2px solid #0077b5; width: 370px">
+                    <div class="ad-card row m-0 p-0">
+                      <div class="col-6">
+                        <h3 class="col-6 m-0 p-0" style="color: #0077b5">
+                          Linkedin
+                        </h3>
+                        <h5 style="color: rgb(201, 200, 198)">
+                          know more about us on linkedin
+                        </h5>
+                        <button class="btn btn-outline-dark">Visit</button>
+                      </div>
+                      <img
+                        class="col-6 m-0 p-0"
+                        src="{% static 'images/linkedinAd.png' %}"
+                        height="150px"
+                        width="350px"
+                        alt="Facebook Ad"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Grid container -->
+        <!-- Section: Text -->
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-            © 2025 Copyright:
-            <a class="text-reset fw-bold" href="https://www.facebook.com/farid.faiz.148" target="_blank">Eng/ Farid
-                Fayez</a>
-        </div>
-        <!-- Copyright -->
+      <!-- Copyright -->
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2025 Copyright:
+        <a
+          class="text-reset fw-bold"
+          href="https://www.facebook.com/farid.faiz.148"
+          target="_blank"
+          >Eng/ Farid Fayez</a
+        >
+      </div>
+      <!-- Copyright -->
     </footer>
     <!-- Footer -->
-    {% endblock footer %} <!-- MDB JS -->
+    {% endblock footer %}
+    <!-- MDB JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
 
     <!-- Initialize dropdowns manually -->
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const dropdownTriggerList = [].slice.call(document.querySelectorAll('[data-mdb-dropdown-init]'));
-            dropdownTriggerList.map(function (dropdownTriggerEl) {
-                new mdb.Dropdown(dropdownTriggerEl);
-            });
+      document.addEventListener("DOMContentLoaded", function () {
+        const dropdownTriggerList = [].slice.call(
+          document.querySelectorAll("[data-mdb-dropdown-init]"),
+        );
+        dropdownTriggerList.map(function (dropdownTriggerEl) {
+          new mdb.Dropdown(dropdownTriggerEl);
         });
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
